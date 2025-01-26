@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from src.main import app  # Import your FastAPI app from the src directory
+from src.DGPT import app  # Import your FastAPI app from the src directory
 
 # Create a TestClient instance
 client = TestClient(app)
