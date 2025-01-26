@@ -4,3 +4,5 @@ ctransformers
 requests
 beautifulsoup4
 uvicorn
+pytest
+httpx
