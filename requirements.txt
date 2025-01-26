@@ -1,0 +1,6 @@
+fastapi
+pydantic
+ctransformers
+requests
+beautifulsoup4
+uvicorn
