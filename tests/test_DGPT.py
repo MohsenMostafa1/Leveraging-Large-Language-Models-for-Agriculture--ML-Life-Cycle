@@ -25,4 +25,4 @@ def test_generate_endpoint_invalid_input():
         "/generate",
         json={"max_length": 50},  # Missing input_text
     )
-    assert response.status_code == 422  # FastAPI returns 422 for validation errors
+    assert response.status_code == 422  # FastAPI returns 422 for validation errorss
